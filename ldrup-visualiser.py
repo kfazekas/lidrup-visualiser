@@ -342,7 +342,8 @@ for key, cell in table.get_celld().items():
 plt.tight_layout()
 if args.save:
     # remove the extension
-    filename = args.filename.split('.')[0]
-    plt.savefig(f'{filename}.png')
+    import os
+    args.filename = os.path.splitext(args.filename)[0]
+    plt.savefig(f'{args.filename}.png')
 else:
     plt.show()
