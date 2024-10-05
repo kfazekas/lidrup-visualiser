@@ -79,3 +79,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgement
+
+This work was funded by the Austrian Science Fund (FWF) under project No. T-1306.
